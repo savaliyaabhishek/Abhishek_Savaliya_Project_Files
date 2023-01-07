@@ -1,0 +1,70 @@
+Rowid,Country,State lgd code,State,Year,Coal type,Coal produced from proved resources,Coal produced from indicated resources,Coal produced from inferred resources
+1,India,1,Jammu And Kashmir,2018,Lignite,0.000000000000000,19.75709352792183525,7.1223102594483653
+2,India,1,Jammu And Kashmir,2019,Lignite,0.000000000000000,19.75709352792183525,7.1223102594483653
+3,India,1,Jammu And Kashmir,2020,Lignite,0.000000000000000,19.75709352792183525,7.1223102594483653
+4,India,8,Rajasthan,2018,Lignite,1168.53,3029.78,2150.77
+5,India,8,Rajasthan,2019,Lignite,1168.53,3029.78,2150.77
+6,India,8,Rajasthan,2020,Lignite,1168.53,3029.77,2150.77
+7,India,9,Uttar Pradesh,2018,Coal,884,178,0
+8,India,9,Uttar Pradesh,2019,Coal,884,178,0
+9,India,9,Uttar Pradesh,2020,Coal,884,178,0
+10,India,10,Bihar,2018,Coal,161,813,392
+11,India,10,Bihar,2019,Coal,310,1513,11
+12,India,10,Bihar,2020,Coal,310,2431,11
+13,India,11,Sikkim,2018,Coal,0,58,43
+14,India,11,Sikkim,2019,Coal,0,58,43
+15,India,11,Sikkim,2020,Coal,0,58,43
+16,India,12,Arunachal Pradesh,2018,Coal,31,40,19
+17,India,12,Arunachal Pradesh,2019,Coal,31,40,19
+18,India,12,Arunachal Pradesh,2020,Coal,31,40,19
+19,India,13,Nagaland,2018,Coal,9,0,401
+20,India,13,Nagaland,2019,Coal,9,22,415
+21,India,13,Nagaland,2020,Coal,9,22,415
+22,India,17,Meghalaya,2018,Coal,89,17,471
+23,India,17,Meghalaya,2019,Coal,89,17,471
+24,India,17,Meghalaya,2020,Coal,89,17,471
+25,India,18,Assam,2018,Coal,465,57,3
+26,India,18,Assam,2019,Coal,465,57,3
+27,India,18,Assam,2020,Coal,465,57,3
+28,India,19,West Bengal,2018,Coal,14156,12869,4643
+29,India,19,West Bengal,2018,Lignite,0,1.13,2.8
+30,India,19,West Bengal,2019,Coal,14219,12847,4624
+31,India,19,West Bengal,2019,Lignite,0,1.13,2.8
+32,India,19,West Bengal,2020,Coal,15189,13125,4623
+33,India,19,West Bengal,2020,Lignite,0,1.13,2.8
+34,India,20,Jharkhand,2018,Coal,45563,31439,6150
+35,India,20,Jharkhand,2019,Coal,48032,30400,6074
+36,India,20,Jharkhand,2020,Coal,49469,30284,5850
+37,India,21,Odisha,2018,Coal,37391,34165,7739
+38,India,21,Odisha,2019,Coal,39654,33473,7713
+39,India,21,Odisha,2020,Coal,40872,36067,7713
+40,India,22,Chhattisgarh,2018,Coal,20428,34576,2202
+41,India,22,Chhattisgarh,2019,Coal,21446,36260,2202
+42,India,22,Chhattisgarh,2020,Coal,24985,42368,2079
+43,India,23,Madhya Pradesh,2018,Coal,11958,12154,3875
+44,India,23,Madhya Pradesh,2019,Coal,12182,12736,3875
+45,India,23,Madhya Pradesh,2020,Coal,12597,12888,3799
+46,India,24,Gujarat,2018,Lignite,1278.65,283.7,1159.7
+47,India,24,Gujarat,2019,Lignite,1278.65,283.7,1159.7
+48,India,24,Gujarat,2020,Lignite,1278.65,283.7,1159.7
+49,India,27,Maharashtra,2018,Coal,7178,3074,2048
+50,India,27,Maharashtra,2019,Coal,7573,3257,1847
+51,India,27,Maharashtra,2020,Coal,7624,3257,1847
+52,India,28,Andhra Pradesh,2018,Coal,0,1149,432
+53,India,28,Andhra Pradesh,2019,Coal,97,1078,432
+54,India,28,Andhra Pradesh,2020,Coal,97,1078,432
+55,India,32,Kerala,2018,Lignite,0,0,9.65
+56,India,32,Kerala,2019,Lignite,0,0,9.65
+57,India,32,Kerala,2020,Lignite,0,0,9.65
+58,India,33,Tamil Nadu,2018,Lignite,4093.53,22648.33,9392.85
+59,India,33,Tamil Nadu,2019,Lignite,4340.35,22496.63,9392.85
+60,India,33,Tamil Nadu,2020,Lignite,4340.35,22496.63,9652.62
+61,India,34,Puducherry,2018,Lignite,0,405.61,11
+62,India,34,Puducherry,2019,Lignite,0,405.61,11
+63,India,34,Puducherry,2020,Lignite,0,405.61,11
+64,India,36,Telangana,2018,Coal,10475,8576,2651
+65,India,36,Telangana,2019,Coal,10622,8565,2652
+66,India,36,Telangana,2020,Coal,10841,8521,2863
+67,India,37,Ladakh,2018,Lignite,0.0000000000000000,0.492906472078156650,0.17768974055163178
+68,India,37,Ladakh,2019,Lignite,0.0000000000000000,0.492906472078156650,0.17768974055163178
+69,India,37,Ladakh,2020,Lignite,0.0000000000000000,0.492906472078156650,0.17768974055163178
