@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use ieee.numeric_std.all;
+
+entity alu is
+	port(
+	 alu_a:  in std_logic_vector(15 downto 0);
+	 
+	 clk: in std_logic
+	 );
+	 end entity;
+	 
+architecture working of alu is
+signal carry: std_logic:='0';
+signal zero: std_logic:='0';
+begin
+	carry_out <= carry;
+	zero_out<= zero;
+	compute : process(t1,t2,t3, pc_in, sign_extender_10, state,clk)
+	begin
+	
+	end process;
+end working;
