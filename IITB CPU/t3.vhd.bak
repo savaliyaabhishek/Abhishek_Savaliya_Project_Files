@@ -1,0 +1,50 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity temp_2 is 
+	port(
+		alu: out std_logic_vector(15 downto 0);
+		reg_in: in std_logic_vector(15 downto 0);
+		reg_out: out std_logic_vector(15 downto 0);
+		clk: in std_logic;
+		data_1: out std_logic_vector(15 downto 0);
+		data_2: in std_logic_vector(15 downto 0);
+		state: in std_logic_vector(5 downto 0);
+		shift1: out std_logic_vector(15 downto 0)
+	);
+end temp_2;
+
+architecture working2 of temp_2 is
+signal t2: std_logic_vector(15 downto 0);
+begin
+	read_proc: process(t2, state)
+	begin
+		if (state="000011" or state="101000" or state="101001") then
+		alu <= t2;
+
+		elsif (state="000101") then
+		shift1 <= t2;
+
+		elsif (state="001101" or state = "011001") then
+		data_1 <= t2;
+		
+		elsif (state="010001" or state="010010" or state="001111" or state="010011" or state="010100" or state="010101" or state="010110" or state="010111") then
+		reg_out<=t2;
+		end if;
+	end process;
+
+	write_proc: process(clk)
+	begin 
+		if(falling_edge(clk)) then
+		if (state="000010"  or state="001100" or state="011000" or state="011001" or state="011010" or state="011011" or state="011100" or state="011101" or state="011110" or state="011111" or state="100000") then
+			t2 <= reg_in;
+
+		elsif (state="001101" or state="001110") then
+		t2 <= data_2;
+			
+		end if;
+		end if;
+	end process;
+end working2;
